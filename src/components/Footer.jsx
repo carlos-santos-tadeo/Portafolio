@@ -7,7 +7,9 @@ const Footer = () => {
         <h3 className='font-bold text-3xl mt-10'>Contact me!</h3>
         <p className='px-3 text-center sm:px- lg:px-28'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus ac ipsum sed rhoncus. Nam euismod auctor ipsum.</p>
         <div className='mb-12'>
-          <button className='border-[1px] rounded-md px1'>Click here</button>
+          <span className='flex gap-[2px] hover:gap-3'>
+          {`<`}<button className='text-normal border-[1px] rounded-md px1'>Click here</button>{`/>`}
+          </span>
         </div>
       </div>
       <br /><br />

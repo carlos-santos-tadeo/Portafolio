@@ -19,10 +19,20 @@ const Navbar = () => {
       <i onClick={handleShowNav} className='bx bx-menu text-black text-3xl cursor-pointer md:hidden hover:bg-purple-700/80 hover:text-white hover:rounded-md'></i>
 
       <nav className={`text-black absolute top-full ${isShowNav ? "left-0" : "-left-full"} w-full grid text-lg gap-2 duration-200 md:static md:flex md:w-auto md:mx-auto`}>
-        <a className='hover:bg-purple-700/80 hover:text-white hover:rounded-md p-4 duration-200 pl-2' href="#">Home</a>
-        <a className='hover:bg-purple-700/80 hover:text-white hover:rounded-md p-4 duration-200 pl-2' href="#project">Project</a>
-        <a className='hover:bg-purple-700/80 hover:text-white hover:rounded-md p-4 duration-200 pl-2' href="#">About me</a>
-        <a className='hover:bg-purple-700/80 hover:text-white hover:rounded-md p-4 duration-200 pl-2' href="#">Contact me</a>
+        <span className='hover:bg-purple-700/80 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2'>
+          {'<'}<a href="#">Home</a>{'/>'}
+        </span>
+        <span className='hover:bg-purple-700/80 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2'>
+          {'<'}<a href="#project">Project</a>{'/>'}
+        </span>
+        <span className='hover:bg-purple-700/80 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2'>
+          {'<'}<a href="#">About me</a>{'/>'}
+        </span>
+
+        <span className='hover:bg-purple-700/80 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2'>
+          {'<'}<a href="#">Contact me</a>{'/>'}
+        </span>
+ 
       </nav>
     </header>
   )
