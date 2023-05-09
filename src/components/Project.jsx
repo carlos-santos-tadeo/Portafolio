@@ -2,27 +2,41 @@ import React from 'react'
 
 const Project = () => {
     return (
-        <main id='project' className='md:pt-14'>
+        <main id='project' className='md:pt-14 pt-2'>
+            {/* <h1 className='text-center text-slate-700 font-bold text-3xl sm:text-6xl pt-24 mb-10'>Project Portfolio</h1> */}
+
+            <span className='text-slate-700 hover:text-violet-600 hover:font-bold hover:gap-2 sm:hover:gap-5 mt-20 mb-10 flex items-center justify-center text-2xl md:text-6xl'>{"<"}
+                <h1 className='text-center text-slate-700 font-bold text-[30px] md:text-6xl '>Project Portfolio</h1>{"/>"}
+            </span>
+
             <section className='mx-auto sm:items-center sm:gap-12 sm:flex-row-reverse flex flex-col gap-5 px-3 py-[20px] sm:max-w-[1280px] sm:px-8 '>
                 <div className='ml-3 mb-5 sm:max-w-[45%] sm:mr-[6%]'>
-                    <h3 className='text-Violet1 font-bold text-3xl lg:text-5xl mb-7'>Last landing <span className='text-slate-700'>and website projects</span></h3>
-                    <span className='md:text-lg text-slate-700'>Lorem ipsum amet, consectetur adipiscing elit. Ut cursus ac ipsum sed rhoncus. Nam euismod auctor ipsum.</span>
+                    <h3 className='text-Violet1 font-bold text-3xl lg:text-5xl mb-7'>E-commerce <span className='text-slate-700'>and some more projects</span></h3>
+                    <span className='md:text-lg text-slate-700'>Interactive e-commerce using HTML, CSS and JavaScript. {<br />} Style and quality... you find everything here in your new favorite store.</span>
+                    <div className='flex gap-3 text-slate-600 pt-2'>
+                        <span className='border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700'>HTML</span>
+                        <span className='border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700'>CSS</span>
+                        <span className='border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700'>JavaScript</span>
+                    </div>
                 </div>
                 <div className='my-7 max-w-[500px] mx-auto'>
-                    <img className=' max-h-[320px]' src="/images/project.png" alt="" />
+                    <img className=' max-h-[320px]' src="/images/e-commerce.png" alt="" />
                 </div>
             </section>
 
             <section className='mx-auto sm:items-center sm:gap-12 sm:flex-row flex flex-col gap-5 px-3 py-[20px] sm:max-w-[1280px] sm:px-8 '>
                 <div className='ml-3 sm:ml-[10%] mb-5 sm:max-w-[45%]'>
-                    <h3 className='text-Violet1 font-bold text-3xl lg:text-5xl mb-7'>Build <span className='text-slate-700'> a whole new world</span></h3>
-                    <span className='md:text-lg text-slate-700'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus ac ipsum sed rhoncus. Nam euismod auctor ipsum.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus ac ipsum sed rhoncus. Nam euismod auctor ipsum.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus ac ipsum sed rhoncus. Nam euismod auctor ipsum.</span>
+                    <h3 className='text-Violet1 font-bold text-3xl lg:text-5xl mb-7'>Infogalax<span className='text-slate-700'> knowing the universe</span></h3>
+                    <span className='md:text-lg text-slate-700'>Entertainment page that shows random phrases about curiosities in space, using React with Vitejs, use of components, props and states.</span>
+                    <div className='flex gap-3 text-slate-600 pt-2'>
+                        <span className='border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700'>React</span>
+                        <span className='border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700'>Vitejs</span>
+                    </div>
                 </div>
                 <div className='my-7 max-w-[500px] mx-auto'>
                     <img className=' max-h-[320px]' src="/images/infoGalax.png" alt="" />
                 </div>
+
             </section>
 
 
