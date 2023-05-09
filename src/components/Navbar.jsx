@@ -19,17 +19,17 @@ const Navbar = () => {
       <i onClick={handleShowNav} className='bx bx-menu text-black text-3xl cursor-pointer md:hidden hover:bg-purple-700/80 hover:text-white hover:rounded-md'></i>
 
       <nav className={`bg-slate-300/95 text-black absolute top-full ${isShowNav ? "left-0" : "-left-full"} w-full grid text-lg gap-2 duration-200 md:static md:flex md:w-auto md:mx-auto`}>
-        <span className='hover:bg-purple-700/80 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2'>
+        <span className='hover:bg-violet-600 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2'>
           {'<'}<a href="#"  onClick={handleShowNav}>Home</a>{'/>'}
         </span>
-        <span className='hover:bg-purple-700/80 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2'>
+        <span className='hover:bg-violet-600 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2'>
           {'<'}<a href="#project" onClick={handleShowNav}>Project</a>{'/>'}
         </span>
-        <span className='hover:bg-purple-700/80 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2'>
+        <span className='hover:bg-violet-600 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2'>
           {'<'}<a href="#about_me"  onClick={handleShowNav}>About me</a>{'/>'}
         </span>
 
-        <span className='hover:bg-purple-700/80 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2'>
+        <span className='hover:bg-violet-600 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2'>
           {'<'}<a href="#footer" onClick={handleShowNav}>Contact me</a>{'/>'}
         </span>
  
