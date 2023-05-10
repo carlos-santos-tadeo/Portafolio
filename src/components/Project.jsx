@@ -25,7 +25,7 @@ const Project = () => {
                     <div className='relative overflow-hidden'>
                         <img className=' max-h-[320px]' src="/images/e-commerce.png" alt="" />
                         <div className='absolute h-full w-full bg-cover bg-[url("images/e-commerce2.png")] flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-3xl'>
-                            <a className='hover:bg-black rounded-md bg-violet-400 text-white py-2 px-5' target='_blank' href="">Visit project</a>
+                            <a className='hover:bg-black rounded-md bg-violet-400 text-white py-2 px-5' target='_blank' href="https://academlo-shop-carlos-santos.netlify.app/">Visit project</a>
                         </div>
                     </div>
                 </div>
