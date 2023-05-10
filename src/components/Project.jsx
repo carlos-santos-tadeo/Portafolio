@@ -44,7 +44,7 @@ const Project = () => {
                 <div className='my-7 max-w-[500px] mx-auto group h-fit'>
                     <div className='relative overflow-hidden'>
                         <img className=' max-h-[320px]' src="/images/infoGalax.png" alt="" />
-                        <div className='absolute h-full w-full bg-cover bg-[url("images/infoGalax2.png")] flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-3xl'>
+                        <div id='infoGalax' className='absolute h-full w-full bg-cover flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-3xl'>
                             <a className='hover:bg-black rounded-md bg-violet-400 text-white py-2 px-5' target='_blank' href="https://entregable01-carlos-alberto-santos.netlify.app/">Visit project</a>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ const Project = () => {
                 <div className='my-7 max-w-[500px] mx-auto group h-fit'>
                     <div className='relative overflow-hidden'>
                         <img className=' max-h-[320px]' src="/images/crudUsers.png" alt="" />
-                        <div className='absolute h-full w-full bg-cover bg-[url("images/crudUsers2.png")] flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-3xl'>
+                        <div id='crudUsers' className='absolute h-full w-full bg-cover flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-3xl'>
                             <a className='hover:bg-slate-500 rounded-md bg-violet-400 text-white py-2 px-5' target='_blank' href="https://crud-entregable04.netlify.app/">Visit project</a>
                         </div>
                     </div>
@@ -90,7 +90,7 @@ const Project = () => {
                 <div className='my-7 max-w-[500px] mx-auto group h-fit'>
                     <div className='relative overflow-hidden'>
                         <img className=' max-h-[320px]' src="/images/pokedex.png" alt="" />
-                        <div className='absolute h-full w-full bg-cover bg-[url("images/pokedex2.png")] flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-3xl'>
+                        <div id='pokedex' className='absolute h-full w-full bg-cover flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-3xl'>
                             <a className='hover:bg-black rounded-md bg-violet-400 text-white py-2 px-5' target='_blank' href="https://pokedex-carlos-santos.netlify.app">Visit project</a>
                         </div>
                     </div>

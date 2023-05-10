@@ -1,5 +1,16 @@
-/* const ecommerce = 'bg-[url("images/e-commerce2.png")]' */
 
 #ecommerce_project{
   background-image: url("/images/e-commerce2.png");
+}
+
+#infoGalax{
+  background-image: url("/images/infoGalax2.png");
+}
+
+#ecommerce_project{
+  background-image: url("/images/crudUsers2.png");
+}
+
+#ecommerce_project{
+  background-image: url("/images/pokedex2.png");
 }
