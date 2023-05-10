@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Project = () => {
-    const ecommerce = 'bg-[url("images/e-commerce2.png")]'
     return (
         <main id='project' className='md:pt-14 pt-2'>
             {/* <h1 className='text-center text-slate-700 font-bold text-3xl sm:text-6xl pt-24 mb-10'>Project Portfolio</h1> */}
@@ -25,7 +24,7 @@ const Project = () => {
                 <div className='my-7 max-w-[500px] mx-auto group h-fit'>
                     <div className='relative overflow-hidden'>
                         <img className=' max-h-[320px]' src="/images/e-commerce.png" alt="" />
-                        <div className={`absolute h-full w-full bg-cover ${ecommerce} flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-3xl`}>
+                        <div id='ecommerce_project' className={`absolute h-full w-full bg-cover flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-3xl`}>
                             <a className='hover:bg-black rounded-md bg-violet-400 text-white py-2 px-5' target='_blank' href="https://academlo-shop-carlos-santos.netlify.app/">Visit project</a>
                         </div>
                     </div>
