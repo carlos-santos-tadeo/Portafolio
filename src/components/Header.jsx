@@ -19,7 +19,7 @@ const Header = () => {
           {'<'}<h2 className='sm:text-3xl md:text-5xl text-slate-700'> My name is Carlos Santos</h2>{'/>'}
         </span>
         <div className='max-w-[270px]  my-8' >
-          <img className='mx-auto p-5' src="/images/7.png" alt="" />
+          <img className='mx-auto p-5' src="/images/profile.png" alt="" />
         </div>
 
         <div className='sm:px-5 text-slate-700 font-semibold text-justify max-w-[800px] mx-auto sm:text-2xl'>
