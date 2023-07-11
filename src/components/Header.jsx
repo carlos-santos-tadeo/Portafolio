@@ -9,7 +9,7 @@ const Header = () => {
         </div>
 
         <section className='max-w-[500px] md:ml-[5%] mx-auto px-1'>
-          <h2 className='text-violet-600 font-bold text-[28px] lg:text-5xl mb-7 hover:text-slate-700 duration-300'>Hi! <span className='text-slate-700 hover:text-violet-600 duration-300'>I’am a frontend developed.</span></h2>
+          <h2 className='text-violet-600 font-bold text-[28px] lg:text-5xl mb-7 hover:text-slate-700 duration-300'>Hi! <span className='text-slate-700 hover:text-violet-600 duration-300'>I’am a frontend developer.</span></h2>
           <p className=' text-slate-700 text-sm md:text-lg text-justify'>I'm probably the most passionate developer you will ever get to work with. If you have a great project that needs some amazing skills, I’m the person you need.</p>
         </section>
       </section >
