@@ -36,28 +36,28 @@ const Navbar = () => {
         <span className="hover:bg-violet-600 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2">
           {"<"}
           <a href="#" onClick={handleShowNav}>
-            Home
+            Inicio
           </a>
           {"/>"}
         </span>
         <span className="hover:bg-violet-600 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2">
           {"<"}
           <a href="#about_me" onClick={handleShowNav}>
-            About me
+            Acerca de mi
           </a>
           {"/>"}
         </span>
         <span className="hover:bg-violet-600 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2">
           {"<"}
           <a href="#project" onClick={handleShowNav}>
-            Project
+            Proyectos
           </a>
           {"/>"}
         </span>
         <span className="hover:bg-violet-600 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2">
           {"<"}
           <a href="#footer" onClick={handleShowNav}>
-            Contact me
+            Contactame
           </a>
           {"/>"}
         </span>
