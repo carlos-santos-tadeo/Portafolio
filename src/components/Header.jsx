@@ -18,8 +18,8 @@ const Header = () => {
         <span className='flex sm:hover:gap-5 text-lg hover:gap-1 hover:text-violet-600 md:mt-20 font-bold sm:text-5xl items-center text-Violet1 duration-500'>
           {'<'}<h2 className='sm:text-3xl md:text-5xl text-slate-700'> My name is Carlos Santos</h2>{'/>'}
         </span>
-        <div className='sm:w-[500px]' >
-          <img className='mx-auto' src="/images/profile.png" alt="" />
+        <div className='max-w-[270px]  my-8' >
+          <img className='mx-auto p-5' src="/images/7.png" alt="" />
         </div>
 
         <div className='sm:px-5 text-slate-700 font-semibold text-justify max-w-[800px] mx-auto sm:text-2xl'>
