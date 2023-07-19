@@ -31,28 +31,28 @@ const Navbar = () => {
         <span className="hover:bg-violet-600 flex hover:text-white hover:rounded-md p-4 duration-200 pl-2">
           {"<"}
           <a href="#" onClick={handleShowNav}>
-            Inicio
+            INICIO
           </a>
           {"/>"}
         </span>
         <span className="hover:bg-violet-600 flex hover:text-white hover:rounded-md p-4 duration-200 pl-2">
           {"<"}
           <a href="#about_me" onClick={handleShowNav}>
-            Acerca de mi
+            SOBRE MI
           </a>
           {"/>"}
         </span>
         <span className="hover:bg-violet-600 flex hover:text-white hover:rounded-md p-4 duration-200 pl-2">
           {"<"}
           <a href="#project" onClick={handleShowNav}>
-            Proyectos
+            PROYECTOS
           </a>
           {"/>"}
         </span>
         <span className="hover:bg-violet-600 flex hover:text-white hover:rounded-md p-4 duration-200 pl-2">
           {"<"}
           <a href="#footer" onClick={handleShowNav}>
-            Contactame
+            CONTACTO
           </a>
           {"/>"}
         </span>
