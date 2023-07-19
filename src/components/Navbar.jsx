@@ -9,18 +9,13 @@ const Navbar = () => {
 
   return (
     <header className="flex justify-between py-4 px-2 text-2xl text-black items-center md:px-4 md:py-0 fixed top-0 left-0 w-full z-30 bg-slate-300 ">
-      <div className="flex gap-5">
+
+      <div>
         <img
-          className="absolute left-4 top-2 md:left-[25px] md:top-[8px]"
-          src="/images/elpY.png"
+          className="absolute max-w-[90px] left-3 top-5 sm:top-3 sm:max-w-[120px]"
+          src="/images/lightModeLogo.png"
           alt=""
         />
-        <img
-          className="absolute md:top-[20px]"
-          src="/images/EllipseX.png"
-          alt=""
-        />
-        <h1 className="pl-[60px] font-semibold">Carlos S.</h1>
       </div>
 
       <i
@@ -31,7 +26,7 @@ const Navbar = () => {
       <nav
         className={`bg-slate-300/95 text-black absolute top-full ${
           isShowNav ? "left-0" : "-left-full"
-        } w-full grid text-lg gap-2 duration-500 md:text-xl md:font-bold md:static md:flex md:w-auto md:mx-auto`}
+        } w-full grid text-lg lg:gap-2 duration-500 md:text-xl md:font-bold md:static md:flex md:w-auto lg:mr-16`}
       >
         <span className="hover:bg-violet-600 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2">
           {"<"}
