@@ -16,14 +16,14 @@ const Header = () => {
 
       <section id='about_me' className='items-center flex flex-col mx-5 max-w-[1280px] sm:mx-auto md:pt-32 pt-40'>      
         <span className='flex sm:hover:gap-5 text-lg hover:gap-1 hover:text-violet-600 md:mt-20 font-bold sm:text-5xl items-center text-Violet1 duration-500'>
-          {'<'}<h2 className='sm:text-3xl md:text-5xl text-slate-700'> My name is Carlos Santos</h2>{'/>'}
+          {'<'}<h2 className='sm:text-3xl md:text-5xl text-slate-700'>Mi nombre es Carlos Santos</h2>{'/>'}
         </span>
         <div className='max-w-[270px]  my-8' >
           <img className='mx-auto p-5' src="/images/profile.png" alt="" />
         </div>
 
         <div className='sm:px-5 text-slate-700 font-semibold text-justify max-w-[800px] mx-auto sm:text-2xl'>
-          <h2>Nice to meet you. I'm naturally curious, and arduously working on improving my chops. I am passionate about providing solutions to users by creating accessible products</h2>
+          <h2>Un placer conocerlo. Me apasiona brindar soluciones a los usuarios creando productos accesibles e intuitivos. Me considero curioso por naturaleza y trabajo arduamente para mejorar mis habilidades.</h2>
         </div>
       </section>
     </main>
