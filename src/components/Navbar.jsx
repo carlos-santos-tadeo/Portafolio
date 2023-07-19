@@ -28,28 +28,28 @@ const Navbar = () => {
           isShowNav ? "left-0" : "-left-full"
         } w-full grid text-lg lg:gap-2 duration-500 md:text-xl md:font-bold md:static md:flex md:w-auto lg:mr-16`}
       >
-        <span className="hover:bg-violet-600 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2">
+        <span className="hover:bg-violet-600 flex hover:text-white hover:rounded-md p-4 duration-200 pl-2">
           {"<"}
           <a href="#" onClick={handleShowNav}>
             Inicio
           </a>
           {"/>"}
         </span>
-        <span className="hover:bg-violet-600 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2">
+        <span className="hover:bg-violet-600 flex hover:text-white hover:rounded-md p-4 duration-200 pl-2">
           {"<"}
           <a href="#about_me" onClick={handleShowNav}>
             Acerca de mi
           </a>
           {"/>"}
         </span>
-        <span className="hover:bg-violet-600 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2">
+        <span className="hover:bg-violet-600 flex hover:text-white hover:rounded-md p-4 duration-200 pl-2">
           {"<"}
           <a href="#project" onClick={handleShowNav}>
             Proyectos
           </a>
           {"/>"}
         </span>
-        <span className="hover:bg-violet-600 flex hover:gap-3 hover:text-white hover:rounded-md p-4 duration-200 pl-2">
+        <span className="hover:bg-violet-600 flex hover:text-white hover:rounded-md p-4 duration-200 pl-2">
           {"<"}
           <a href="#footer" onClick={handleShowNav}>
             Contactame
