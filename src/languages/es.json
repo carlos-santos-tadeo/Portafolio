@@ -18,11 +18,19 @@
   "frameworkMsj": "Marco de trabajo basado en clases predefinidas",
   "tools": "Mas herramientas",
   "toolsMsj": "Git, Netlify, GitHub y Figma",
-
-
-
-
-  
+  "projectTitle":"Mis Proyectos",
+  "projectEcommerce":"E-commerce",
+  "ecommerceTitle":" y algunos proyectos más.",
+  "ecommerceDetails":"Ecommerce interactivo utilizando HTML, CSS y JavaScript. Estilo y calidad... todo lo encuentras aquí en tu nueva tienda favorita.",
+  "projectInfogalax":"Infogalax",
+  "infogalaxTitle":" Conociendo el universo.",
+  "infogalaxDetails":"Página de entretenimiento que muestra frases aleatorias sobre curiosidades en el espacio, usando React con Vitejs, uso de componentes, props y estados.",
+  "crudTitle":" y métodos HTTP.",
+  "crudDetails":"Aplicación que permite gestionar usuarios a través de un CRUD. Uso de API para consultar, crear, eliminar y actualizar usuarios.",
+  "pokedexTitle":" con React router y Redux.",
+  "pokedexDetails":"Aplicación que lista los pokemons traídos de la pokeapi. Tiene una selección para filtrar por tipo, número de pokemons a mostrar por página y la opción de buscar un pokemon por nombre.",
+  "goToProject":"Ir al proyecto",
+  "goToGitHub": "Ir a GitHub",
   "titleContact": "Contactame",
   "msjContact": "El área principal de mi experiencia es el desarrollo full stack, HTML, CSS, JS, React y Nodejs, la creación de aplicaciones web pequeñas y medianas, complementos personalizados, características, animaciones y codificación de diseños interactivos."
 }
