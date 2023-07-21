@@ -9,6 +9,15 @@
   "headerDescription": "I’m probably the most passionate developer you will ever get to work with. If you have a great project that needs some amazing skills, I’m the person you need.",
   "headerMyName": "My name is Carlos Santos.",
   "headerAboutMe": "Nice to meet you. I am passionate about providing solutions to users, creating accessible and intuitive products. I consider myself curious by nature and work hard to improve my skills.",
+  "skills": "Skills",
+  "languages": "Languages",
+  "languagesMsj": "Take your developments to another level",
+  "libraries": "Libraries",
+  "librariesMsj": "Create truly amazing user interfaces",
+  "framework": "Frameworks",
+  "frameworkMsj": "Framework based on predefined classes",
+  "tools": "More tools",
+  "toolsMsj": "Git, Netlify, GitHub and Figma",
 
 
   "titleContact": "Contact me"
