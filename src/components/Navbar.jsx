@@ -1,21 +1,39 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const [isShowNav, setIsShowNav] = useState(false);
+  const [currentLanguage, setCurrentLanguage] = useState("es");
+  const { t, i18n } = useTranslation();
 
   const handleShowNav = () => {
     setIsShowNav(!isShowNav);
   };
 
+  const handleLanguageChange = () => {
+    const newLanguage = currentLanguage === "es" ? "en" : "es";
+    setCurrentLanguage(newLanguage);
+    i18n.changeLanguage(newLanguage);
+  };
+
   return (
     <header className="flex justify-between py-4 px-2 text-2xl text-black items-center lg:px-4 lg:py-0 fixed top-0 left-0 w-full z-30 bg-slate-300 ">
-
       <div>
         <img
           className="absolute max-w-[90px] left-3 top-5 sm:top-3 sm:max-w-[120px]"
           src="/images/lightModeLogo.png"
           alt=""
         />
+
+        <div className="absolute cursor-pointer hover:rotate-180 duration-1000 hover:w-[35px] w-[30px] right-10 top-4 lg:left-[180px] lg:top-5">
+          <a id="languageButton" onClick={() => handleLanguageChange("es")}>
+            <img
+              src="/images/changeLang.png"
+              alt=""
+              title={t("changeLanguage")}
+            />
+          </a>
+        </div>
       </div>
 
       <i
@@ -31,28 +49,28 @@ const Navbar = () => {
         <span className="hover:bg-violet-600 flex justify-center hover:text-white hover:rounded-md p-4 duration-200 pl-2">
           {"<"}
           <a href="#" onClick={handleShowNav}>
-            INICIO
+            {t("home")}
           </a>
           {"/>"}
         </span>
         <span className="hover:bg-violet-600 flex justify-center hover:text-white hover:rounded-md p-4 duration-200 pl-2">
           {"<"}
           <a href="#about_me" onClick={handleShowNav}>
-            SOBRE MI
+            {t("aboutMe")}
           </a>
           {"/>"}
         </span>
         <span className="hover:bg-violet-600 flex justify-center hover:text-white hover:rounded-md p-4 duration-200 pl-2">
           {"<"}
           <a href="#project" onClick={handleShowNav}>
-            PROYECTOS
+            {t("projects")}
           </a>
           {"/>"}
         </span>
         <span className="hover:bg-violet-600 flex justify-center hover:text-white hover:rounded-md p-4 duration-200 pl-2">
           {"<"}
           <a href="#footer" onClick={handleShowNav}>
-            CONTACTO
+            {t("contact")}
           </a>
           {"/>"}
         </span>
