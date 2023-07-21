@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import CV from "/documents/CV.pdf";
 
 const Navbar = () => {
   const [isShowNav, setIsShowNav] = useState(false);
@@ -32,6 +33,11 @@ const Navbar = () => {
               alt=""
               title={t("changeLanguage")}
             />
+          </a>
+        </div>
+        <div className="absolute cursor-pointer hover:w-[35px] w-[30px] right-20 top-2 lg:left-[230px] lg:top-4">
+          <a href={CV} target="_blank">
+            <img src="/images/ImgCv.png" alt="" />
           </a>
         </div>
       </div>
