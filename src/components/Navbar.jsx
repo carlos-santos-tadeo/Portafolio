@@ -64,6 +64,7 @@ const Navbar = () => {
             <img
               src={!isDarkMode ? "/images/imgCv.png" : "/images/imgCvDark.png"}
               className={!isDarkMode ? "animate-pulse" : ""}
+              title={t("downloadCv")}
             />
           </a>
         </div>
