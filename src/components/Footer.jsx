@@ -6,8 +6,8 @@ const Footer = () => {
 
   return (
     <section id="footer" className="py-10 sm:flex sm:justify-center md:mt-20">
-      <div className="grid gap-6 justify-items-center bg-slate-500/50 rounded-2xl mx-5 py-16 sm:py-3 max-w-[800px]">
-        <h3 className="font-bold animate-bounce text-3xl md:text-5xl mt-6 hover:text-violet-600 duration-500 mb-7">
+      <div className="grid gap-6 justify-items-center bg-slate-500/50 dark:bg-slate-700/60 rounded-2xl mx-5 py-16 sm:py-3 max-w-[800px]">
+        <h3 className="font-bold animate-bounce text-3xl md:text-5xl mt-6 hover:text-violet-600 dark:hover:text-Violet1 duration-500 mb-7">
           {t("titleContact")} !
         </h3>
         <p className="px-3 text-center sm:px-16 lg:px-28 mb-5">

@@ -6,36 +6,34 @@ const Project = () => {
 
   return (
     <main id="project" className="md:pt-14 pt-2">
-      {/* <h1 className='text-center text-slate-700 font-bold text-3xl sm:text-6xl pt-24 mb-10'>Project Portfolio</h1> */}
-
       <span className="text-Violet1 hover:text-violet-600 hover:font-bold hover:gap-2 sm:hover:gap-5 mt-20 mb-10 flex items-center justify-center text-2xl md:text-6xl duration-300">
         {"<"}
-        <h1 className="text-center text-slate-700 font-bold text-[30px] md:text-6xl">
+        <h1 className="text-center z-30 text-slate-700 dark:text-slate-300 font-bold text-[30px] md:text-6xl">
           {t("projectTitle")}
         </h1>
         {"/>"}
       </span>
 
       {/* ecommerce */}
-      <section className="mx-auto sm:items-center sm:gap-12 sm:flex-row-reverse flex flex-col gap-5 px-3 py-[20px] sm:max-w-[1280px] sm:px-8 ">
-        <div className="ml-3 mb-5 sm:max-w-[45%] sm:mr-[6%]">
-          <h3 className="text-violet-600 font-bold text-3xl lg:text-5xl mb-7 group hover:text-slate-700 duration-500">
+      <section className="mx-auto z-30 sm:items-center sm:gap-12 sm:flex-row-reverse flex flex-col gap-5 px-3 py-[20px] sm:max-w-[1280px] sm:px-8 ">
+        <div className="ml-3 mb-5 sm:max-w-[45%] z-30 sm:mr-[6%]">
+          <h3 className="text-violet-600 font-bold text-3xl lg:text-5xl mb-7 group dark:hover:text-slate-300 hover:text-slate-700 duration-500">
             E-commerce{" "}
-            <span className="text-slate-700 group-hover:text-violet-600">
+            <span className="text-slate-700 dark:text-slate-300 group-hover:text-violet-600">
               {t("ecommerceTitle")}
             </span>
           </h3>
-          <span className="md:text-lg text-slate-700">
+          <span className="md:text-lg text-slate-700 dark:text-slate-300">
             {t("ecommerceDetails")}
           </span>
-          <div className="flex gap-3 text-slate-600 pt-2">
-            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700">
+          <div className="flex gap-3 text-slate-600 dark:text-slate-300 pt-2">
+            <span className="border-[1px] rounded-sm border-Violet1 px-1 dark:hover:text-Violet1 hover:text-violet-600 hover:border-slate-700 dark:hover:border-slate-300">
               HTML
             </span>
-            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700">
+            <span className="border-[1px] rounded-sm border-Violet1 px-1 dark:hover:text-Violet1 hover:text-violet-600 hover:border-slate-700 dark:hover:border-slate-300">
               CSS
             </span>
-            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700">
+            <span className="border-[1px] rounded-sm border-Violet1 px-1 dark:hover:text-Violet1 hover:text-violet-600 hover:border-slate-700 dark:hover:border-slate-300">
               JavaScript
             </span>
           </div>
@@ -67,20 +65,20 @@ const Project = () => {
       {/* infoGalax */}
       <section className="mx-auto sm:items-center sm:gap-12 sm:flex-row flex flex-col gap-5 px-3 py-[20px] sm:max-w-[1280px] sm:px-8 ">
         <div className="ml-3 sm:ml-[10%] mb-5 sm:max-w-[45%]">
-          <h3 className="text-violet-600 font-bold text-3xl lg:text-5xl mb-7 group hover:text-slate-700 duration-500">
+          <h3 className="text-violet-600 font-bold text-3xl lg:text-5xl mb-7 group dark:hover:text-slate-300 hover:text-slate-700 duration-500">
             {t("projectInfogalax")}
-            <span className="text-slate-700 group-hover:text-violet-600">
+            <span className="text-slate-700 dark:text-slate-300 group-hover:text-violet-600">
               {t("infogalaxTitle")}
             </span>
           </h3>
-          <span className="md:text-lg text-slate-700">
+          <span className="md:text-lg text-slate-700 dark:text-slate-300">
             {t("infogalaxDetails")}
           </span>
           <div className="flex gap-3 text-slate-600 pt-2">
-            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700">
+            <span className="border-[1px] rounded-sm border-Violet1 px-1 dark:hover:border-slate-300 hover:text-violet-600 dark:hover:text-Violet1 hover:border-slate-700 dark:text-slate-300 ">
               React
             </span>
-            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700">
+            <span className="border-[1px] rounded-sm border-Violet1 px-1 dark:hover:border-slate-300 hover:text-violet-600 dark:hover:text-Violet1 hover:border-slate-700 dark:text-slate-300 ">
               Vitejs
             </span>
           </div>
@@ -111,21 +109,23 @@ const Project = () => {
       {/* CRUD de usuarios */}
       <section className="mx-auto sm:items-center sm:gap-12 sm:flex-row-reverse flex flex-col gap-5 px-3 py-[20px] sm:max-w-[1280px] sm:px-8 ">
         <div className="ml-3 mb-5 sm:max-w-[45%] sm:mr-[6%]">
-          <h3 className="text-violet-600 font-bold text-3xl lg:text-5xl mb-7 group hover:text-slate-700 duration-500">
+          <h3 className="text-violet-600 font-bold text-3xl lg:text-5xl mb-7 group dark:hover:text-slate-300 hover:text-slate-700 duration-500">
             CRUD’s
-            <span className="text-slate-700 group-hover:text-violet-600">
+            <span className="text-slate-700 dark:text-slate-300 group-hover:text-violet-600">
               {t("crudTitle")}
             </span>
           </h3>
-          <span className="md:text-lg text-slate-700">{t("crudDetails")}</span>
+          <span className="md:text-lg text-slate-700 dark:text-slate-300">
+            {t("crudDetails")}
+          </span>
           <div className="flex gap-3 text-slate-600 pt-2">
-            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700">
+            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700 dark:text-slate-300 dark:hover:text-Violet1 dark:hover:border-slate-300">
               Tailwind
             </span>
-            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700">
+            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700 dark:text-slate-300 dark:hover:text-Violet1 dark:hover:border-slate-300">
               React
             </span>
-            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700">
+            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700 dark:text-slate-300 dark:hover:text-Violet1 dark:hover:border-slate-300">
               JavaScript
             </span>
           </div>
@@ -157,26 +157,26 @@ const Project = () => {
       {/* Pokedex */}
       <section className="mx-auto sm:items-center sm:gap-12 sm:flex-row flex flex-col gap-5 px-3 py-[20px] sm:max-w-[1280px] sm:px-8 ">
         <div className="ml-3 sm:ml-[10%] mb-5 sm:max-w-[45%]">
-          <h3 className="text-violet-600 font-bold text-3xl lg:text-5xl mb-7 group hover:text-slate-700 duration-500">
+          <h3 className="text-violet-600 dark:text-Violet1 font-bold text-3xl lg:text-5xl mb-7 group hover:text-slate-700 dark:hover:text-slate-300 duration-500">
             Pokedex
-            <span className="text-slate-700 group-hover:text-violet-600">
+            <span className="text-slate-700 dark:text-slate-300 group-hover:text-violet-600 dark:group-hover:text-Violet1">
               {t("pokedexTitle")}
             </span>
           </h3>
-          <span className="md:text-lg text-slate-700">
+          <span className="md:text-lg text-slate-700 dark:text-slate-300">
             {t("pokedexDetails")}
           </span>
           <div className="flex gap-3 text-slate-600 pt-2">
-            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700">
+            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700 dark:text-slate-300 dark:hover:text-Violet1 dark:hover:border-slate-300">
               React
             </span>
-            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700">
+            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700 dark:text-slate-300 dark:hover:text-Violet1 dark:hover:border-slate-300">
               Talwind
             </span>
-            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700">
+            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700 dark:text-slate-300 dark:hover:text-Violet1 dark:hover:border-slate-300">
               Vitejs
             </span>
-            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700">
+            <span className="border-[1px] rounded-sm border-Violet1 px-1 hover:text-violet-600 hover:border-slate-700 dark:text-slate-300 dark:hover:text-Violet1 dark:hover:border-slate-300">
               Figma
             </span>
           </div>
