@@ -23,7 +23,7 @@ const Header = () => {
               {t("headerTitle")}
             </span>
           </h2>
-          <p className=" text-slate-700 z-30 dark:text-slate-300 text-sm md:text-lg text-justify">
+          <p className=" text-slate-700 z-30 dark:text-slate-300 text-sm md:text-lg text-justify font-semibold">
             {t("headerDescription")}
           </p>
 
