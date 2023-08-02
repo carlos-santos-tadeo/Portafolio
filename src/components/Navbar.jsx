@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isShowNav, setIsShowNav] = useState(false);
   const [currentLanguage, setCurrentLanguage] = useState("es");
   const { t, i18n } = useTranslation();
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState();
 
   if (localStorage.theme === "true") {
     document.documentElement.classList.add("dark");
@@ -19,8 +19,8 @@ const Navbar = () => {
   const changeDarkMode = () => {
     toggleDarkMode.value = document.documentElement.classList.toggle("dark");
     toggleDarkMode.value
-      ? (localStorage.theme = "true")
-      : (localStorage.theme = "false");
+      ? localStorage.setItem("theme", "true")
+      : localStorage.setItem("theme", "false");
     setIsDarkMode((isDarkMode) => !isDarkMode);
   };
 
