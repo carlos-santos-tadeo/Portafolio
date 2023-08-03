@@ -20,6 +20,10 @@
   "frameworkMsj": "Marco de trabajo basado en clases predefinidas",
   "tools": "Mas herramientas",
   "toolsMsj": "Git, Netlify, GitHub y Figma",
+  "nodeMsj":"Entorno de ejecución de JavaScript",
+  "postgreMsj":"Sistema de bases de datos relacional",
+  "sequelizeMsj":"ORM con soporte sólido para transacciones",
+
   "projectTitle":"Mis Proyectos",
   "projectEcommerce":"E-commerce",
   "ecommerceTitle":" y algunos proyectos más.",

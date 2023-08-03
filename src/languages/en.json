@@ -20,6 +20,10 @@
   "frameworkMsj": "Framework based on predefined classes",
   "tools": "More tools",
   "toolsMsj": "Git, Netlify, GitHub and Figma",
+  "nodeMsj":"JavaScript execution environment",
+  "postgreMsj":"Relational database system",
+  "sequelizeMsj":"ORM with strong support for transactions",
+  
   "projectTitle":"My Projects",
   "projectEcommerce":"E-commerce",
   "ecommerceTitle":" and some more projects.",
