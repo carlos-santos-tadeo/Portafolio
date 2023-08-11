@@ -145,7 +145,7 @@ const Project = () => {
               <a
                 className="hover:bg-slate-500 rounded-md bg-violet-400 text-white py-2 px-5"
                 target="_blank"
-                href="https://crud-entregable04.netlify.app/"
+                href="https://crud-usuarios-carlos.netlify.app/"
               >
                 {t("goToProjects")}
               </a>
