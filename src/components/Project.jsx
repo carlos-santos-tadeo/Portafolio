@@ -97,7 +97,7 @@ const Project = () => {
               <a
                 className="hover:bg-black rounded-md bg-violet-400 text-white py-2 px-5"
                 target="_blank"
-                href="https://entregable01-carlos-alberto-santos.netlify.app/"
+                href="https://infogalax.netlify.app/"
               >
                 {t("goToProjects")}
               </a>
