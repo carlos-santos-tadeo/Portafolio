@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { useTranslation } from "react-i18next";
-import CV from "/documents/CV.pdf";
+import CV from "/documents/CV_CarlosSantos_Desarrollador_FullStack.pdf";
 
 const Navbar = () => {
   const [isShowNav, setIsShowNav] = useState(false);
